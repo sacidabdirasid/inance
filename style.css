@@ -1,0 +1,360 @@
+.html {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.html ul li {
+    list-style: none;
+
+}
+
+.html ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.html ul {
+    display: flex;
+    gap: 30px;
+}
+
+.html h3 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+html img {
+    display: flex;
+}
+
+.hee {
+    font-size: 30px;
+    color: white;
+    background-color: orangered;
+    border-style: none;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-page button {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.header-content {
+    width: 500px;
+}
+
+.header-content img {
+    width: 400px;
+}
+
+.header-content h1 {
+    font-size: 40px;
+}
+
+.header-content p {
+    font-size: 24px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about-content {
+    width: 500px;
+}
+
+.about-content img {
+    width: 500px;
+}
+
+.about-content button {
+    background-color: blue;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    transition: 0.5s;
+}
+
+.about-content p {
+    font-size: 24px;
+}
+
+.about-content button:hover {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.Home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.Home-contact {
+    width: 500px;
+}
+
+.Home-contact button {
+    background-color: orangered;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    transition: 0.5s
+}
+
+.Home-contact button:hover {
+    border: 1px solid red;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.Home-contact img {
+    width: 400px;
+}
+
+.Home-contact p {
+    font-size: 24px;
+}
+
+.fa-brands {
+    font-size: 50px;
+    color: red;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-1,
+.footer-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-2 div {
+    width: 300px;
+}
+
+.footer-2 img {
+    width: 100px;
+}
+
+.footer-3 button {
+    background-color: blue;
+    padding: 10px 30px;
+    border: none;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.icon .fa-solid {
+    font-size: 100px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    width: 200px;
+    background: rgb(172, 165, 165);
+    padding: 40px;
+}
+
+/* testimonial */
+.testimonial {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.customer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.testimonial-box {
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contact form input,
+textarea {
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type='submit'] {
+    width: 100px !important;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+
+input[type='submit']:hover {
+    width: 100px !important;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 30px !important;
+}
+
+.section-p {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-h {
+    text-align: center;
+}
+
+.section {
+
+    gap: 10px;
+}
+
+.section-p .fa-solid {
+    font-size: 100px;
+}
+
+@media(max-width:900px) {
+    .html ul {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .header-page,
+    .about {
+        flex-direction: column;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .header-content,
+    .about-content {
+        width: 100%;
+    }
+
+    .icon {
+        flex-direction: column;
+    }
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        width: 100%;
+    }
+
+    .Home-contact {
+        width: 100%;
+    }
+
+    .Home {
+        flex-direction: column;
+    }
+
+    .hom-content {
+        width: 100%;
+        flex-direction: c;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .testimonial-box {
+        width: 100% !important;
+    }
+
+    .contact {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100% !important;
+    }
+
+    .contact-box iframe {
+        width: 100% !important;
+    }
+
+    .section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-p {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-p .fa-solid {
+        text-align: center;
+    }
+
+    .section-p div {
+        width: 100%;
+    }
+}
